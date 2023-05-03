@@ -17,7 +17,7 @@ The sensor can be inaccurate so don't use those measurements if you need them fo
   -> go to the AWS Sagemaker <br>
   -> create a notebook instance <br>
   -> upload the the dataset file in the notebook area <br>
-  -> copy the sagemaker.ipynb file code in to your notebook and execute it .(copy the endpoint name)<br>
+  -> copy the sagemaker.ipynb file code in to your notebook and execute it .(it will generate an endpoint copy the endpoint name)<br>
   -> The sagemaker.ipynb file contains code to train an XgBoost model on the dataset to predict wheather a leakage occurs or not.<br>
   -> Run the EmailAlerts.ipynb file in your local machine<br>
   -> This will fetch latest uploaded data from dynamoDB and send it to the endpoint of the trained model to get the probability of the gasleakage. <br>
